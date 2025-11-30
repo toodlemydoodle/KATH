@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kathleen — A Little Bit Wicked Birthday</title>
+  <meta name="description"
+        content="Emerald spellbook birthday card with curled pages, music per page, and green fireworks on the finale." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="fireworks"></canvas>
+
+  <div class="stage">
+    <div class="cloth"></div>
+      <div class="bg-characters">
+        <img src="assets/elphaba.png" alt="Elphaba" class="bg-elph">
+        <img src="assets/glinda.png" alt="Glinda" class="bg-glinda">
+      </div>
+    <div class="book3d" id="book3d" aria-label="A Wicked-themed birthday storybook for Kathleen">
+      <div class="board back"></div>
+
+      <div class="wrap" aria-live="polite">
+        <div class="book" id="book">
+          <!-- P1 -->
+          <section class="page right current" data-page="1" data-track="#track1">
+            <div class="meta">
+              <span class="tag">Page 1 · The Spell Restarts</span>
+              <span>From George</span>
+            </div>
+            <header>
+              <h1>Happy Birthday!</h1>
+              <h2>Changed For The Better</h2>
+            </header>
+            <main class="art">
+              <div class="stars" data-stars="18"></div>
+              <img src="assets/picture1.jpg" alt="Photo" class="page-image">
+              <p>
+                Because I knew you, I have been changed for the better. Thankyou for another wonderful year.
+                It’s your day to sparkle—let’s make it magical.
+              </p>
+            </main>
+            <footer class="meta">
+              <span class="footer-note">Tap anywhere to turn the page.</span>
+              <span>♫ Track 1</span>
+            </footer>
+          </section>
+
+          <!-- P2 -->
+          <section class="page right" data-page="2" data-track="#track2">
+            <div class="meta">
+              <span class="tag">Page 2 · Chaotic Goofy Energy</span>
+              <span>Emerald laughter</span>
+            </div>
+            <header>
+              <h1>A Little Bit Wicked</h1>
+              <h2>We laughed the gravity off the day.</h2>
+            </header>
+            <main class="art">
+              <div class="stars" data-stars="12"></div>
+              <p>
+                You've showed me not everything needs to be so serious. With you, I can
+                let go, be silly, and laugh until my sides hurt. Thankyou for being one of the
+                few people who I can share anything with.
+              </p>
+            </main>
+            <footer class="meta">
+              <span class="footer-note">Thank you for the loud, green joy.</span>
+              <span>♫ Track 2</span>
+            </footer>
+          </section>
+
+          <!-- P3 -->
+          <section class="page right" data-page="3" data-track="#track3">
+            <div class="meta">
+              <span class="tag">Page 3 · The Safe Tower</span>
+              <span>Quiet bravery</span>
+            </div>
+            <header>
+              <h1>The Door You Keep Unlocked</h1>
+              <h2>Where the honest parts don’t feel scary.</h2>
+            </header>
+            <main class="art">
+              <p>
+              There are so much expectations of me, I often face biases that I am emotionally self-sufficient. 
+              I am always expected to be strong, to not need help, to not show vulnerability.
+              With you, I have found a safe tower where I can be my whole self without fear. You
+              are such a rare friend. Thank you for always being there to listen, to understand, and to accept me as I am.
+              </p>
+            </main>
+            <footer class="meta">
+              <span class="footer-note">Some towers are built out of trust, not stone.</span>
+              <span>♫ Track 3</span>
+            </footer>
+          </section>
+
+          <!-- P4 -->
+          <section class="page right" data-page="4" data-track="#track4">
+            <div class="meta">
+              <span class="tag">Page 4 · Lessons in Green</span>
+              <span>Light, kept</span>
+            </div>
+            <header>
+              <h1>What You’ve Shifted in Me</h1>
+              <h2>Sharp doesn’t cancel soft. Strong can be kind.</h2>
+            </header>
+            <main class="art">
+              <p>
+                I hope you know you can share with me about your struggles, doubts, and fears too.
+                You’ve taught me that being strong doesn’t mean I have to be hard all the time. You
+                can do the same with me. Thank you for showing me how to be both resilient and gentle.
+
+                I wish I took more photos of our memories, I would be able to put more photos in next year's story book.
+              </p>
+            </main>
+            <footer class="meta">
+              <span class="footer-note">You’ve coloured my edges a kinder shade of green.</span>
+              <span>♫ Track 4</span>
+            </footer>
+          </section>
+
+          <!-- P5 -->
+          <section class="page right" data-page="5" data-track="#track5">
+            <div class="meta">
+              <span class="tag">Page 5 · Your Gift</span>
+              <span>Emerald City Screening</span>
+            </div>
+
+            <header>
+              <h1>Your Birthday Gift</h1>
+              <h2>A Ticket to Wicked: Part Two</h2>
+            </header>
+
+            <main class="art ticket">
+              <!-- Sparkles around the ticket -->
+              <div class="ticket-sparkles">
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+              </div>
+
+              <div class="ticket-inner">
+                <div class="ticket-left">
+                  <h3>WICKED — PART TWO</h3>
+                  <p class="ticket-sub">Emerald City Special Screening</p>
+
+                  <div class="ticket-details">
+                    <p><strong>Admit:</strong> Kathleen</p>
+                    <p><strong>From:</strong> George</p>
+                    <p><strong>Seat:</strong> Wherever you want</p>
+                    <p><strong>Date:</strong> Whenever You're Free</p>
+                    <p><strong>Please Scan QR code to fill out quick survey</p>
+                  </div>
+                </div>
+                  <div class="ticket-right">
+                    <a
+                      class="qr"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLScuZUXStsutvRja2NbJ1QAfze_t9PGyelkb0IYYJRtQmD2zzA/viewform?usp=header"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScuZUXStsutvRja2NbJ1QAfze_t9PGyelkb0IYYJRtQmD2zzA%2Fviewform%3Fusp%3Dheader"
+                        alt="QR code to your Wicked ticket questionnaire"
+                      >
+                    </a>
+                    <p class="code">GIFT–OZ–KATH–2025</p>
+                  </div>
+              </div>
+            </main>
+
+            <footer class="meta">
+              <span class="footer-note">
+                Tap to turn back through the book and watch the cover close.
+              </span>
+              <span>♫ Track 5</span>
+            </footer>
+          </section>
+
+        </div>
+      </div>
+
+      <!-- Front cover -->
+      <div class="board cover" id="cover">
+        <div class="cover-art">
+          <div class="frame">
+            <h1 class="title">Biss, Deuxleen</h1>
+            <h2 class="subtitle">A Little Bit Wicked</h2>
+            <p class="byline">A Brthday Spell From Georgy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio -->
+<!-- Single background song for the whole book -->
+<audio id="bg-music" src="assets/track1.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
