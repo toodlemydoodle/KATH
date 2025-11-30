@@ -98,8 +98,9 @@ function prev(){
 
 // Tap / click anywhere
 function onAdvance(){ next(); }
-document.body.addEventListener('click', onAdvance);
-document.body.addEventListener('touchstart', onAdvance, {passive:true});
+document.body.addEventListener('pointerdown', onAdvance);
+//document.body.addEventListener('click', onAdvance);
+//document.body.addEventListener('touchstart', onAdvance, {passive:true});
 
 // Optional keyboard
 document.addEventListener('keydown', e=>{
